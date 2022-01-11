@@ -1,0 +1,3 @@
+rudalle==0.4.0
+# git+https://github.com/sberbank-ai/ru-dalle.git
+kornia

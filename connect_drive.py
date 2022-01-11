@@ -3,10 +3,9 @@ import os
 import sys
 from google.colab import drive
 
-abs_root_path = "/content"
 
 def connect_to(folder="dev"):
-    global abs_root_path
+    abs_root_path = "/content"
     drive.mount(abs_root_path+"/drive")
     folder_name = folder 
     if len(folder_name) > 0:
